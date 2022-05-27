@@ -3,6 +3,10 @@
   "private": true,
   "version": "1.0.0",
   "description": "Salesforce App",
+  "engines": {
+    "node": "16.15.0",
+    "npm": "8.3.0"
+  },
   "scripts": {
     "lint": "eslint **/{aura,lwc}/**",
     "test": "npm run test:unit",
