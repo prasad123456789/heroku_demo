@@ -5,7 +5,8 @@
   "description": "Salesforce App",
   "engines": {
     "node": "16.15.0",
-    "npm": "8.3.0"
+    "npm": "8.3.0",
+    "yarn": "1.x"
   },
   "scripts": {
     "lint": "eslint **/{aura,lwc}/**",
